@@ -1,0 +1,23 @@
+A. US Zip Code
+	1. Beginning of regex
+	2. Digits exactly 5
+	3. hyphen character
+	4. Digits exactly 4
+	5. Alternation (or)
+	6. Digits exactly 5
+	7. Ending of regex
+	8. Allow comments and white space
+
+B. URL
+	1. Beginning of regex
+	2. http where s is an option followed by : .NET character
+	3. two literal / characters
+	4. digits, lower case and upper case
+	5. matches any word character - 0 or more times
+	6. digits, lower case and upper case including literal period character
+	7. 1 or more
+	8. lower case letter followed by an uppercase letter in a range min 2 max 9
+	9. digits in range min 1, max for 0 or more times
+	10. matches any special characters 0 or more times
+	11. ending of regex
+	12. Allow comments and white space
