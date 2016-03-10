@@ -1,0 +1,140 @@
+4a.
+Apache Maven 3.3.9 (bb52d8502b132ec0a5a3f4c09453c07478323dc5; 2015-11-10T08:41:47-08:00)
+
+Maven home: /Users/3aCaGa/apache-maven-3.3.9
+
+Java version: 1.7.0_80, vendor: Oracle Corporation
+
+Java home: /Library/Java/JavaVirtualMachines/jdk1.7.0_80.jdk/Contents/Home/jre
+
+Default locale: en_US, platform encoding: UTF-8
+
+OS name: "mac os x", version: "10.10.5", arch: "x86_64", family: “mac"
+
+
+
+4b.
+
+/Users/3aCaGa/apache-maven-3.3.9
+
+
+4c.
+/Users/3aCaGa/apache-maven-3.3.9/bin
+
+
+NUMBER 6 
+[INFO] ----------------------------------------------------------------------------
+[INFO] Using following parameters for creating project from Old (1.x) Archetype: maven-archetype-quickstart:1.0
+[INFO] ----------------------------------------------------------------------------
+[INFO] Parameter: groupId, Value: core
+[INFO] Parameter: packageName, Value: core
+[INFO] Parameter: package, Value: core
+[INFO] Parameter: artifactId, Value: MyApp
+[INFO] Parameter: basedir, Value: /Users/3aCaGa/Workspace/my-app
+[INFO] Parameter: version, Value: 1.0-SNAPSHOT
+[INFO] project created from Old (1.x) Archetype in dir: /Users/3aCaGa/Workspace/my-app/MyApp
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time: 13.109 s
+[INFO] Finished at: 2016-03-09T20:41:27-08:00
+[INFO] Final Memory: 15M/245M
+[INFO] ------------------------------------------------------------------------
+Cocos-MacBook-Pro:my-app 3aCaGa$ mvn package
+[INFO] Scanning for projects...
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD FAILURE
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time: 0.106 s
+[INFO] Finished at: 2016-03-09T21:21:13-08:00
+[INFO] Final Memory: 5M/245M
+[INFO] ------------------------------------------------------------------------
+[ERROR] The goal you specified requires a project to execute but there is no POM in this directory (/Users/3aCaGa/Workspace/my-app). Please verify you invoked Maven from the correct directory. -> [Help 1]
+[ERROR] 
+[ERROR] To see the full stack trace of the errors, re-run Maven with the -e switch.
+[ERROR] Re-run Maven using the -X switch to enable full debug logging.
+[ERROR] 
+[ERROR] For more information about the errors and possible solutions, please read the following articles:
+[ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/MissingProjectException
+Cocos-MacBook-Pro:my-app 3aCaGa$ mvn MyApp package
+[INFO] Scanning for projects...
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD FAILURE
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time: 0.106 s
+[INFO] Finished at: 2016-03-09T21:24:29-08:00
+[INFO] Final Memory: 5M/245M
+[INFO] ------------------------------------------------------------------------
+[ERROR] The goal you specified requires a project to execute but there is no POM in this directory (/Users/3aCaGa/Workspace/my-app). Please verify you invoked Maven from the correct directory. -> [Help 1]
+[ERROR] 
+[ERROR] To see the full stack trace of the errors, re-run Maven with the -e switch.
+[ERROR] Re-run Maven using the -X switch to enable full debug logging.
+[ERROR] 
+[ERROR] For more information about the errors and possible solutions, please read the following articles:
+[ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/MissingProjectException
+Cocos-MacBook-Pro:my-app 3aCaGa$ mvn clean package
+[INFO] Scanning for projects...
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD FAILURE
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time: 0.103 s
+[INFO] Finished at: 2016-03-09T21:27:41-08:00
+[INFO] Final Memory: 5M/245M
+[INFO] ------------------------------------------------------------------------
+[ERROR] The goal you specified requires a project to execute but there is no POM in this directory (/Users/3aCaGa/Workspace/my-app). Please verify you invoked Maven from the correct directory. -> [Help 1]
+[ERROR] 
+[ERROR] To see the full stack trace of the errors, re-run Maven with the -e switch.
+[ERROR] Re-run Maven using the -X switch to enable full debug logging.
+[ERROR] 
+[ERROR] For more information about the errors and possible solutions, please read the following articles:
+[ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/MissingProjectException
+
+
+
+NUMBERS 7-10
+Cocos-MacBook-Pro:MyApp 3aCaGa$ mvn package
+[INFO] Scanning for projects...
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building MyApp 1.0-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ MyApp ---
+[WARNING] Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+[INFO] skip non existing resourceDirectory /Users/3aCaGa/Workspace/my-app/MyApp/src/main/resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.1:compile (default-compile) @ MyApp ---
+[INFO] Nothing to compile - all classes are up to date
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:testResources (default-testResources) @ MyApp ---
+[WARNING] Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+[INFO] skip non existing resourceDirectory /Users/3aCaGa/Workspace/my-app/MyApp/src/test/resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.1:testCompile (default-testCompile) @ MyApp ---
+[INFO] Nothing to compile - all classes are up to date
+[INFO] 
+[INFO] --- maven-surefire-plugin:2.12.4:test (default-test) @ MyApp ---
+[INFO] Surefire report directory: /Users/3aCaGa/Workspace/my-app/MyApp/target/surefire-reports
+
+-------------------------------------------------------
+ T E S T S
+-------------------------------------------------------
+Running core.AppTest
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.005 sec
+
+Results :
+
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0
+
+[INFO] 
+[INFO] --- maven-jar-plugin:2.4:jar (default-jar) @ MyApp ---
+[INFO] Building jar: /Users/3aCaGa/Workspace/my-app/MyApp/target/MyApp-1.0-SNAPSHOT.jar
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time: 1.965 s
+[INFO] Finished at: 2016-03-09T21:47:47-08:00
+[INFO] Final Memory: 10M/245M
+[INFO] ------------------------------------------------------------------------
+Cocos-MacBook-Pro:MyApp 3aCaGa$ java -cp ./target/MyApp-1.0-SNAPSHOT.jar core.App
+George Semfield
