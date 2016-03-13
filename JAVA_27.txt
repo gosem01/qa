@@ -1,0 +1,13 @@
+Cocos-MacBook-Pro:~ 3aCaGa$ cd Java_HW_27/
+Cocos-MacBook-Pro:Java_HW_27 3aCaGa$ javac HelloWorld.java
+Cocos-MacBook-Pro:Java_HW_27 3aCaGa$ java -cp . HelloWorld
+Hello World!
+Cocos-MacBook-Pro:Java_HW_27 3aCaGa$ jar -cf MyNonExeApp.jar HelloWorld.class
+Cocos-MacBook-Pro:Java_HW_27 3aCaGa$ java -jar MyNonExeApp.jar
+no main manifest attribute, in MyNonExeApp.jar
+Cocos-MacBook-Pro:Java_HW_27 3aCaGa$ java -cp MyNonExeApp.jar HelloWorld
+Hello World!
+Cocos-MacBook-Pro:Java_HW_27 3aCaGa$ jar -cfm MyExeApp.jar MANIFEST.MF HelloWorld.class
+Cocos-MacBook-Pro:Java_HW_27 3aCaGa$ java -jar MyExeApp.jar
+no main manifest attribute, in MyExeApp.jar
+Cocos-MacBook-Pro:Java_HW_27 3aCaGa$ 
